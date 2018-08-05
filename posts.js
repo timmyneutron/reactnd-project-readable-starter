@@ -5,26 +5,92 @@ let db = {}
 const defaultData = {
   "8xf0y6ziyjabvozdd253nd": {
     id: '8xf0y6ziyjabvozdd253nd',
-    timestamp: 1467166872634,
-    title: 'Udacity is the best place to learn React',
-    body: 'Everyone says so after all.',
-    author: 'thingtwo',
-    category: 'react',
-    voteScore: 6,
+    timestamp: 1524621132000,
+    title: 'Did you hear about the cross-eyed teacher?',
+    body: 'She had trouble controlling her pupils.',
+    author: 'timmyneutron',
+    category: 'puns',
+    voteScore: 30,
     deleted: false,
     commentCount: 2
   },
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
-    timestamp: 1468479767190,
-    title: 'Learn Redux in 10 minutes!',
-    body: 'Just kidding. It takes more than 10 minutes to learn technology.',
-    author: 'thingone',
-    category: 'redux',
-    voteScore: -5,
+    timestamp: 1524666009000,
+    title: "Why couldn't the bike stand up?",
+    body: 'Because it was two-tired.',
+    author: 'dawniedarko',
+    category: 'puns',
+    voteScore: 25,
     deleted: false,
-    commentCount: 0
-  }
+    commentCount: 2
+  },
+  "5tkxad6iwq9svm69fnkblj": {
+    id: '5tkxad6iwq9svm69fnkblj',
+    timestamp: 1520886708000,
+    title: "Did you hear there's a restaurant on the moon?",
+    body: "The food is good, but there's not much atmosphere.",
+    author: 'timmyneutron',
+    category: 'dadjokes',
+    voteScore: 21,
+    deleted: false,
+    commentCount: 1
+  },
+  "l1ygl78x9397tvy64ox0z7": {
+    id: 'l1ygl78x9397tvy64ox0z7',
+    timestamp: 1520597505000,
+    title: "'I live by the church' 'Art thou a churchman?'",
+    body: "No such matter, sir. I do live by the church; for I do live at my house, and my house doth stand by the church.",
+    author: 'willyshakes',
+    category: 'wordplay',
+    voteScore: 13,
+    deleted: false,
+    commentCount: 1
+  },
+  "ri49xb4psrh93lryvn57": {
+    id: 'ri49xb4psrh93lryvn57',
+    timestamp: 1518565474000,
+    title: "What did the fish say when it swam into a concrete wall?",
+    body: "Dam!",
+    author: 'dawniedarko',
+    category: 'puns',
+    voteScore: 21,
+    deleted: false,
+    commentCount: 2
+  },
+  "hghgududo38xbwxwoqpddd": {
+    id: 'hghgududo38xbwxwoqpddd',
+    timestamp: 1517233343000,
+    title: "'Whose grave’s this, sirrah?' 'Mine, sir.'",
+    body: "'I think it be thine, indeed, for thou liest in it.' - 'You lie out on it, sir, and therefore it is not yours. For my part, I do not lie in it, and yet it is mine.'",
+    author: 'willyshakes',
+    category: 'wordplay',
+    voteScore: 28,
+    deleted: false,
+    commentCount: 2
+  },
+  "ttttteeeeefdghjknbvccx": {
+    id: 'ttttteeeeefdghjknbvccx',
+    timestamp: 1516287940000,
+    title: "What do you call a deer with no eyes?",
+    body: "No idear!",
+    author: 'strawberryshortcake',
+    category: 'puns',
+    voteScore: 40,
+    deleted: false,
+    commentCount: 2
+  },
+  "1n9ll87bjkzzy13ilg9quh": {
+    id: '1n9ll87bjkzzy13ilg9quh',
+    timestamp: 1523378061000,
+    title: "I watched a car crush a Coke can today.",
+    body: "I shouldn't be sad about it, but it was just soda pressing...",
+    author: 'timmyneutron',
+    category: 'dadjokes',
+    voteScore: 32,
+    deleted: false,
+    commentCount: 1
+  },
 }
 
 function getData (token) {
